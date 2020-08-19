@@ -25,7 +25,7 @@ def run():
     aria2_daemon_start_cmd.append("--rpc-listen-port=6800")
     aria2_daemon_start_cmd.append("--rpc-max-request-size=1024M")
     aria2_daemon_start_cmd.append("--seed-ratio=0.0")
-    aria2_daemon_start_cmd.append("--seed-time=1")
+    aria2_daemon_start_cmd.append("--seed-time=1000000")
     aria2_daemon_start_cmd.append("--split=10")
     aria2_daemon_start_cmd.append("--bt-stop-timeout=600")
     aria2_daemon_start_cmd.append("--dir=/app/static/files")
